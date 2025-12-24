@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "My Mind",
+  "version": "2.5",
+  "description": "Smart notes, links, and keys with auto-sync and reminders.",
+  "permissions": ["storage", "contextMenus", "notifications", "alarms"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": { "128": "icon.png" },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}

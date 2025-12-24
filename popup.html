@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="fixed-top">
+      <header>
+        <div class="header-main">
+          <div class="header-left">
+            <img src="icon.png" alt="Icon" class="title-icon">
+            <div class="title-container">
+              <div class="title-row">
+                <h2>My Mind</h2>
+                <span id="totalCount" class="count-badge">0</span>
+              </div>
+              <div class="dev-info">Dev by Imran Hasan</div>
+            </div>
+          </div>
+          <div class="header-actions">
+            <button id="darkModeToggle" class="action-icon">🌙</button>
+            <button id="searchBtn" class="action-icon">🔍</button>
+            <div class="menu-container">
+              <button id="menuBtn" class="three-dot">⋮</button>
+              <div id="menuDropdown" class="dropdown-content hidden">
+                <button id="pinToggleMenu">⚙️ Setup PIN</button>
+                <button id="setReminderBtn">⏰ Set Reminder</button>
+                <div class="del-unlock">
+                  <input type="checkbox" id="deleteLock">
+                  <label for="deleteLock">Unlock Delete</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="searchBarContainer" class="search-container hidden">
+          <input type="text" id="searchInput" placeholder="Search title or content...">
+        </div>
+      </header>
+
+      <div class="input-section">
+        <div class="input-group">
+          <div class="input-row">
+            <select id="category" style="width: 90px; flex-shrink: 0;"></select>
+            <input type="text" id="itemTitle" placeholder="Title (Optional)" style="flex-grow: 1;">
+            <input type="text" id="customCategory" class="hidden" placeholder="Cat Name" style="width: 70px;">
+          </div>
+          <div class="input-row">
+            <input type="text" id="content" placeholder="Type here...">
+            <button id="addBtn">Add</button>
+          </div>
+          <input type="datetime-local" id="reminderTime" class="hidden" style="margin-top: 5px; width: 100%;">
+        </div>
+      </div>
+      <div class="filter-tabs" id="filterTabs"></div>
+    </div>
+
+    <div class="scrollable-content">
+      <div id="list" class="list-container"></div>
+    </div>
+  </div>
+
+  <div id="pinArea" class="hidden">
+    <div class="lock-screen">
+      <h3>🔒 Locked</h3>
+      <input type="password" id="pinInput" placeholder="Enter PIN">
+      <button id="unlockBtn">Unlock</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
