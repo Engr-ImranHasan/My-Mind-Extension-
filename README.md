@@ -1,7 +1,7 @@
 # My-Mind-Extension
-**🧠 My Mind - Your Digital Second Brain**
+**🧠 My Mind - Smart Browser Extension**
 
-My Mind একটি আধুনিক এবং ব্যবহারকারী-বান্ধব ব্রাউজার এক্সটেনশন যা আপনার দৈনন্দিন ডিজিটাল জীবনের গুরুত্বপূর্ণ তথ্যগুলো গুছিয়ে রাখতে সাহায্য করে। আপনি কোনো প্রয়োজনীয় নোট, গুরুত্বপূর্ণ লিঙ্ক বা জরুরি পাসওয়ার্ড/কি (Key) সেভ করতে চান? "My Mind" সেই সবকিছুর জন্য একটি নিরাপদ এবং সুন্দর সমাধান।
+My Mind is a powerful and lightweight browser extension designed to act as your digital second brain. It helps you quickly capture, organize, and secure your notes, important links, and secret keys with a beautiful user experience.
 
 > **🚀 Download Latest Version:** [Click here to download the ZIP](https://github.com/Engr-ImranHasan/My-Mind-Extension-/releases/latest)
 
@@ -11,54 +11,52 @@ My Mind একটি আধুনিক এবং ব্যবহারকার
 **2nd ss**
 ![img alt](https://github.com/Engr-ImranHasan/My-Mind-Extension-/blob/main/s.png?raw=true)
 
+**🚀 Key Features**
 
-**🚀 কেন "My Mind" ব্যবহার করবেন?**
+Smart Categorization: Automatically distinguishes between Notes, Links, and Keys (Passwords).
 
-স্মার্ট অর্গানাইজার: এটি স্বয়ংক্রিয়ভাবে আপনার লিঙ্ক এবং নোটগুলোকে আলাদা ক্যাটাগরিতে ভাগ করে ফেলে।
+Quick Save Menu: Save any selected text or link directly from your browser's right-click context menu.
 
-টাইটেল সাপোর্ট: প্রতিটি সেভ করা আইটেমের জন্য আলাদা শিরোনাম (Title) দেওয়ার সুবিধা রয়েছে যাতে পরে দ্রুত খুঁজে পাওয়া যায়।
+Title Support: Add optional titles to your saved items for easier identification and searching.
 
-নিরাপত্তা প্রথম: আপনার ব্যক্তিগত তথ্য সুরক্ষিত রাখতে এতে ৪-ডিজিটের মাস্টার পিন (PIN) লক সিস্টেম যুক্ত করা হয়েছে।
+Search & Filter: Instantly find what you need using the built-in search bar and category tabs.
 
-ডার্ক মোড: চোখের আরামের জন্য এতে রয়েছে আকর্ষণীয় ডার্ক মোড এবং মোড অনুযায়ী ডাইনামিক চাঁদ/সূর্য আইকন।
+Master PIN Security: Protect your private data with a 4-digit Master PIN lock system.
 
-উৎসবমুখর অভিজ্ঞতা: নতুন কিছু সেভ করার সাথে সাথে পুরো স্ক্রিন জুড়ে একটি চমৎকার বড় আতশবাজি (Fireworks) অ্যানিমেশন আপনার অভিজ্ঞতাকে আরও আনন্দদায়ক করবে।
+Dynamic Dark Mode: Includes a high-contrast dark mode with sun/moon icons to protect your eyes at night.
 
-দ্রুত এক্সেস: মাউসের রাইট-ক্লিক মেনু ব্যবহার করেই সরাসরি যেকোনো টেক্সট বা লিঙ্ক আপনার "মাইনড"-এ সেভ করে রাখতে পারেন।
+Celebratory Animations: Experience a "Big Fireworks" explosion animation every time you save something new.
 
-> **🚀 Download Latest Version:** [Click here to download the ZIP](https://github.com/Engr-ImranHasan/My-Mind-Extension-/releases/latest)
-
-**📂 মূল ফাইলসমূহ**
-
-manifest.json: এক্সটেনশনের কনফিগারেশন এবং পারমিশন。
-
-popup.html: ইনপুট ফিল্ড এবং হিস্ট্রির জন্য ইউজার ইন্টারফেস。
-
-style.css: ডার্ক মোড এবং আতশবাজির কাস্টম ডিজাইন。
-
-popup.js: টাইটেল, পিন লক এবং সার্চ ফাংশনালিটির মূল লজিক。
-
-background.js: রাইট-ক্লিক সেভ এবং রিমাইন্ডার হ্যান্ডলার。
+Reminders: Set specific date and time alerts for your notes to get desktop notifications.
 
 > **🚀 Download Latest Version:** [Click here to download the ZIP](https://github.com/Engr-ImranHasan/My-Mind-Extension-/releases/latest)
 
-**🛠️ কিভাবে ব্যবহার করবেন?**
+**🛠️ Tech Stack**
 
-১. ক্যাটাগরি সিলেক্ট করুন (Note, Link, বা Key)। 
+Frontend: HTML5, CSS3, JavaScript (Vanilla).
 
-২. একটি টাইটেল (Title) দিন এবং মূল লেখাটি টাইপ করুন। 
+API: Chrome Extension API (Manifest V3).
 
-৩. Add বাটনে ক্লিক করে বড় আতশবাজি উপভোগ করুন এবং তথ্যটি সেভ করুন। 
-
-৪. আপনার সেভ করা সব তথ্য নিচেই সুন্দরভাবে সাজানো থাকবে যা আপনি যেকোনো সময় কপি বা ডিলিট করতে পারবেন।
+Storage: Chrome Storage Sync (Data automatically syncs across your devices).
 
 > **🚀 Download Latest Version:** [Click here to download the ZIP](https://github.com/Engr-ImranHasan/My-Mind-Extension-/releases/latest)
 
-## 📥 Installation
+**📥 Installation Guide**
+
+To use this extension in your browser, follow these simple steps:
+
 1. [Download the latest ZIP file](https://github.com/Engr-ImranHasan/My-Mind-Extension-/releases/latest)
-2. Extract the file on your computer.
-3. Go to `chrome://extensions/` in your browser.
-4. Enable **Developer Mode**.
-5. Click **Load Unpacked** and select the extracted folder.
 
-ডেভেলপার: **ইমরান হাসান**
+2.Extract the Folder: Unzip the downloaded file on your computer.
+
+3.Open Extensions Page: Open your browser and go to chrome://extensions/.
+
+4.Enable Developer Mode: Toggle on the "Developer mode" switch in the top right corner.
+
+5.Load the Extension: Click the "Load unpacked" button and select the folder where you extracted the files.
+
+6.Pin for Easy Access: Click the puzzle icon in your toolbar and pin My Mind for quick access.
+
+**👨‍💻 Developer**
+
+Imran Hasan
